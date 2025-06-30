@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 ### Download data
 
-To access the dataset, you must first be approved by PhysioNet.org for MIMIC-IV Notes (https://physionet.org/content/mimic-iv-note/2.2/note/#files-panel) and MIMIC-CXR-JPG (https://physionet.org/content/mimic-cxr-jpg/2.0.0/). We use the same modalities (time-series and imaging) used in MedFuse and add two more by using demographic information and text notes from other MIMIC-IV datasets. You will need the admissions and patients tables from MIMIC-IV, and the discharge notes: https://physionet.org/content/mimic-iv-note/2.2/note/#files-panel. 
+To access the dataset, you must first be approved by PhysioNet.org for MIMIC-IV Notes (https://physionet.org/content/mimic-iv-note/2.2/note/#files-panel) and MIMIC-CXR-JPG (https://physionet.org/content/mimic-cxr-jpg/2.0.0/). We use the same modalities (time-series and imaging) used in MedFuse and add three more by using demographic information, radiology notes, and discharge notes from other MIMIC-IV datasets. You will need the admissions and patients tables from MIMIC-IV, and the discharge notes: https://physionet.org/content/mimic-iv-note/2.2/note/#files-panel. 
 
 
 ## Preprocessing
